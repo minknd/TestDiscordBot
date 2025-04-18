@@ -6,7 +6,8 @@ module.exports = {
         .setDescription('Calls kyle a dumbass 5 times'),
     async execute(interaction) {
         const kyle = "223605140752433152"
-        let mention = `<@${kyle}>`;
+        const ian = "133684577125400576"
+        let mention = `<@${ian}>`;
 
         let message = '';
         for(let i = 0; i < 5; i++) {
